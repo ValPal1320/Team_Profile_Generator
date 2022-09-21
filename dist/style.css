@@ -1,11 +1,17 @@
 body {
-    background-color: #EB5E28;
+    background-color: #273469;
 }
 
 .card-header {
-    background-color: #CCC5B9;
+    background-color: #e4d9ff;
 }
 
 .card-body {
-    background-color: #FFFCF2;
+    background-color: #fafaff;
+}
+
+#navbar-text {
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
 }
