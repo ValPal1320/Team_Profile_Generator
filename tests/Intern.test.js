@@ -1,4 +1,5 @@
 const Intern = require("../lib/Intern");
+// Object
 const intern = new Intern("Arkin", "789", "arkingoodpup@email.com", "Good Boi University");
 
 describe("Intern", () => {
@@ -13,11 +14,13 @@ describe("Intern", () => {
         expect(intern.school).toBe(school);
     });
  
+    // test to get Intern's school
     it("should return school from object", () => {
 
         expect(intern.school).toBe("Good Boi University");
     });
 
+    // test to get role of Intern
     it("should return Intern role", () => {
 
         expect(intern.getRole()).toBe("Intern");

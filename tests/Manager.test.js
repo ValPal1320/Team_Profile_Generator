@@ -1,4 +1,5 @@
 const Manager = require("../lib/Manager");
+// Object
 const manager = new Manager("Arkin", "789", "arkingoodpup@email.com", "111");
 
 describe("Manager", () => {
@@ -14,12 +15,13 @@ describe("Manager", () => {
     });
 
 
-
+    // test to get Manager's office number
     it("should return office number from object", () => {
 
         expect(manager.getOffice()).toBe("111");
     });
 
+    // test to get role of Manager
     it("should return Manager role", () => {
 
         expect(manager.getRole()).toBe("Manager");

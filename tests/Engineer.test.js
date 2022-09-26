@@ -1,4 +1,5 @@
 const Engineer = require("../lib/Engineer");
+// Object
 const engineer = new Engineer("Arkin", "789", "arkingoodpup@email.com", "GoodBoi");
 
 describe("Engineer", () => {
@@ -13,11 +14,13 @@ describe("Engineer", () => {
         expect(engineer.github).toBe(github);
     });
 
+    // test to get Engineer's GitHub username
     it("should return github username from object", () => {
 
         expect(engineer.github).toBe("GoodBoi");
     });
   
+    // test to get role of Engineer
     it("should return Engineer role", () => {
 
         expect(engineer.getRole()).toBe("Engineer");
