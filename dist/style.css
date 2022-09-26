@@ -1,17 +1,29 @@
 body {
-    background-color: #273469;
+    background-color: #E7F9A9;
 }
 
 .card-header {
-    background-color: #e4d9ff;
+    background-color: #5C5D8D;
 }
 
 .card-body {
-    background-color: #fafaff;
+    background-color: #D9DBF1;
 }
 
 #navbar-text {
+    color: black;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 50px;
+}
+
+.card {
+    border: 7px solid #253031;
+}
+
+.card-header{
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+h3, h4, .material-icons{
     color: white;
-    font-family: cursive;
-    font-size: 30px;
 }
